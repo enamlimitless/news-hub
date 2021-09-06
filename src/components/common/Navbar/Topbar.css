@@ -1,0 +1,27 @@
+.topbar-social-icon li svg {
+  font-size: 1.6rem;
+  margin-right: 1.5rem;
+  color: var(--dark);
+}
+.topbar-info li {
+  font-size: 1.4rem;
+  margin-right: 1.5rem;
+  color: var(--dark);
+}
+.sign-in a {
+  font-size: 1.6rem;
+  margin-left: 1rem;
+}
+.main-nav a {
+  font-size: 1.5rem;
+  margin-right: 2rem;
+  text-transform: uppercase;
+  color: var(--light);
+  transition: 0.2s ease;
+}
+.main-nav a:hover {
+  color: var(--red);
+}
+.logo {
+  height: 8rem;
+}
