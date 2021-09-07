@@ -2,8 +2,35 @@
   width: 0;
 }
 .carousel-caption {
-  /* right: 2% !important; */
-  bottom: 1.25rem;
-  right: 2% !important;
+  right: 20rem !important;
   color: #000 !important;
+  left: 0 !important;
+  width: 100%;
+  bottom: 0 !important;
+  box-shadow: inset 10rem 0 3em rgba(0, 0, 0, 0.1),
+    10rem 0 0 0 rgb(255, 255, 255), 10rem 10rem 11em rgba(0, 0, 0, 0.3);
+}
+.carousel-caption h3 {
+  font-size: 4rem;
+  color: #fff;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+  text-align: left;
+  margin-left: 4rem;
+}
+.carousel-caption p {
+  font-size: 2rem;
+  color: #fff;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  text-align: left;
+  margin-left: 4rem;
+}
+.caro-cap {
+  text-align-last: left;
+  margin-left: 4rem;
+  margin-bottom: 1.2rem;
+}
+.carousel-caption h3 span {
+  color: #ad3d3b;
 }

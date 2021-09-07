@@ -18,6 +18,8 @@
   text-transform: uppercase;
   color: var(--light);
   transition: 0.2s ease;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
 }
 .main-nav a:hover {
   color: var(--red);

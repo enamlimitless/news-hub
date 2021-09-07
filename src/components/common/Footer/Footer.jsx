@@ -13,20 +13,20 @@ import "./Footer.css";
 import FooterBottom from "./FooterBottom";
 const Footer = () => {
   return (
-    <div className="bg-dark">
+    <footer className="bg-dark">
       <Container className="py-5">
         <Row>
           <Col md={3}>
             <h2>About</h2>
-            <img src={logoFooter} alt="" />
-            <p>
+            <img className="footer-logo" src={logoFooter} alt="" />
+            <p className="text-light">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
               consectetur illum aspernatur porro deleniti ipsum nam quam esse
               eius, dolor maiores in consequuntur delectus. Facere quasi
               doloremque odit harum tenetur?
             </p>
-            <p>Connect with Us!</p>
-            <ul className="d-flex topbar-social-icon align-items-center">
+            <p className="text-light">Connect with Us!</p>
+            <ul className="d-flex footer-social-icon align-items-center">
               <li>
                 <a href="http://" target="_blank" rel="noopener noreferrer">
                   <FaFacebookF />
@@ -56,30 +56,30 @@ const Footer = () => {
           </Col>
           <Col md={3}>
             <h2>Most Popular</h2>
-            <div>
+            <div className="d-flex mt-4">
               <img src={f} alt="" />
               <h5>Grandma’s secret blueberry pie recipe revealed!</h5>
             </div>
-            <div>
+            <div className="d-flex mt-4">
               <img src={f} alt="" />
               <h5>Grandma’s secret blueberry pie recipe revealed!</h5>
             </div>
-            <div>
+            <div className="d-flex mt-4">
               <img src={f} alt="" />
               <h5>Grandma’s secret blueberry pie recipe revealed!</h5>
             </div>
           </Col>
           <Col md={3}>
             <h2>Most Discussed</h2>
-            <div>
+            <div className="d-flex mt-4">
               <img src={f} alt="" />
               <h5>Grandma’s secret blueberry pie recipe revealed!</h5>
             </div>
-            <div>
+            <div className="d-flex mt-4">
               <img src={f} alt="" />
               <h5>Grandma’s secret blueberry pie recipe revealed!</h5>
             </div>
-            <div>
+            <div className="d-flex mt-4">
               <img src={f} alt="" />
               <h5>Grandma’s secret blueberry pie recipe revealed!</h5>
             </div>
@@ -88,7 +88,7 @@ const Footer = () => {
         </Row>
       </Container>
       <FooterBottom />
-    </div>
+    </footer>
   );
 };
 
