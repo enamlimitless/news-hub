@@ -1,0 +1,9 @@
+.carousel-indicators {
+  width: 0;
+}
+.carousel-caption {
+  /* right: 2% !important; */
+  bottom: 1.25rem;
+  right: 2% !important;
+  color: #000 !important;
+}

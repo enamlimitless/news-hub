@@ -1,16 +1,95 @@
-import React from 'react';
-import { Container, Row } from 'react-bootstrap';
-import './Footer.css';
+import React from "react";
+import { Col, Container, Row } from "react-bootstrap";
+import {
+  FaFacebookF,
+  FaGooglePlusG,
+  FaInstagram,
+  FaPinterest,
+  FaTwitter
+} from "react-icons/fa";
+import f from "../../../images/1.jpg";
+import logoFooter from "../../../images/logo.png";
+import "./Footer.css";
+import FooterBottom from "./FooterBottom";
 const Footer = () => {
-    return (
-        <div>
-            <Container>
-                <Row>
-                    
-                </Row>
-            </Container>
-        </div>
-    );
+  return (
+    <div className="bg-dark">
+      <Container className="py-5">
+        <Row>
+          <Col md={3}>
+            <h2>About</h2>
+            <img src={logoFooter} alt="" />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
+              consectetur illum aspernatur porro deleniti ipsum nam quam esse
+              eius, dolor maiores in consequuntur delectus. Facere quasi
+              doloremque odit harum tenetur?
+            </p>
+            <p>Connect with Us!</p>
+            <ul className="d-flex topbar-social-icon align-items-center">
+              <li>
+                <a href="http://" target="_blank" rel="noopener noreferrer">
+                  <FaFacebookF />
+                </a>
+              </li>
+              <li>
+                <a href="http://" target="_blank" rel="noopener noreferrer">
+                  <FaTwitter />
+                </a>
+              </li>
+              <li>
+                <a href="http://" target="_blank" rel="noopener noreferrer">
+                  <FaInstagram />
+                </a>
+              </li>
+              <li>
+                <a href="http://" target="_blank" rel="noopener noreferrer">
+                  <FaGooglePlusG />
+                </a>
+              </li>
+              <li>
+                <a href="http://" target="_blank" rel="noopener noreferrer">
+                  <FaPinterest />
+                </a>
+              </li>
+            </ul>
+          </Col>
+          <Col md={3}>
+            <h2>Most Popular</h2>
+            <div>
+              <img src={f} alt="" />
+              <h5>Grandma’s secret blueberry pie recipe revealed!</h5>
+            </div>
+            <div>
+              <img src={f} alt="" />
+              <h5>Grandma’s secret blueberry pie recipe revealed!</h5>
+            </div>
+            <div>
+              <img src={f} alt="" />
+              <h5>Grandma’s secret blueberry pie recipe revealed!</h5>
+            </div>
+          </Col>
+          <Col md={3}>
+            <h2>Most Discussed</h2>
+            <div>
+              <img src={f} alt="" />
+              <h5>Grandma’s secret blueberry pie recipe revealed!</h5>
+            </div>
+            <div>
+              <img src={f} alt="" />
+              <h5>Grandma’s secret blueberry pie recipe revealed!</h5>
+            </div>
+            <div>
+              <img src={f} alt="" />
+              <h5>Grandma’s secret blueberry pie recipe revealed!</h5>
+            </div>
+          </Col>
+          <Col md={3}>hello</Col>
+        </Row>
+      </Container>
+      <FooterBottom />
+    </div>
+  );
 };
 
 export default Footer;

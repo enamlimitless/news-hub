@@ -1,10 +1,10 @@
 import React from "react";
 import {
-    Container,
-    FormControl,
-    InputGroup,
-    Nav,
-    Navbar
+  Container,
+  FormControl,
+  InputGroup,
+  Nav,
+  Navbar
 } from "react-bootstrap";
 import { BiSearchAlt2 } from "react-icons/bi";
 import { FaBars } from "react-icons/fa";
@@ -24,7 +24,7 @@ const MainNavbar = () => {
                 <Link to="/">Home</Link>
               </Nav.Link>
               <Nav.Link>
-                <Link to="/news">News</Link>
+                <Link to="/news">Tech</Link>
               </Nav.Link>
               <Nav.Link>
                 <Link to="/">Business</Link>

@@ -2,8 +2,8 @@ import React from 'react';
 
 const FooterBottom = () => {
     return (
-        <div>
-            <p>&copy; Copyrights 2020. All rights reserved.</p>
+        <div className="py-3 bg-dark text-light text-center">
+            <p>&copy; Copyrights 2021. <a href="/">Enamul Haque</a> All rights reserved.</p>
         </div>
     );
 };
