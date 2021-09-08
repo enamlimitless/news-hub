@@ -4,6 +4,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+::selection {
+  color: var(--gray);
+  background: var(--red);
+}
 html {
   font-size: 62.5%;
 }

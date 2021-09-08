@@ -2,7 +2,20 @@
 .carousel-control-prev {
   display: none !important;
 }
-.slide-head {
+.cate-head {
   color: var(--dark);
-  font-size: 2.4rem;
+  font-size: 2rem;
+  font-weight: 700;
+  transition: 0.2s ease-in-out;
+}
+.cate-head:hover {
+  color: var(--red);
+}
+.cate-text {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.read-more {
+  padding: 1rem 2rem;
+  background: #000;
 }

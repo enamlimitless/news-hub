@@ -19,7 +19,7 @@ const LatestNews = () => {
               <AiOutlineUser /> James Bond <FaRegComment /> 40
             </p>
             <h2 className="my-4">
-              Migrants Told: Stay In France Or Go Back To Your Country
+              America Attacks to Taliban 
             </h2>
             <p className="text-light text">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam quos

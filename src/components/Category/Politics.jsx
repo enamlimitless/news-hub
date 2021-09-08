@@ -1,5 +1,7 @@
 import React from "react";
 import { Card, Carousel } from "react-bootstrap";
+import { BiCalendarCheck } from "react-icons/bi";
+import { FaRegComment } from "react-icons/fa";
 import { Link } from "react-router-dom";
 const Politics = () => {
   return (
@@ -16,13 +18,18 @@ const Politics = () => {
             </Link>
             <Card.Body>
               <Card.Title>
-                <Link className="" to="/">Card Title</Link>
+                <p className="cate-date">
+                  <BiCalendarCheck /> 7 September 2021 <FaRegComment />
+                </p>
+                <Link className="cate-head" to="/">
+                  Card Title
+                </Link>
               </Card.Title>
-              <Card.Text>
+              <Card.Text className="cate-text">
                 Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                the bulk of the card's content. Lorem ipsum dolor sit amet
+                consectetur .
               </Card.Text>
-              <Link to="/">Read More</Link>
             </Card.Body>
           </Card>
         </Carousel.Item>
@@ -36,13 +43,18 @@ const Politics = () => {
             </Link>
             <Card.Body>
               <Card.Title>
-                <Link to="/">Card Title</Link>
+                <p className="cate-date">
+                  <BiCalendarCheck /> 7 September 2021 <FaRegComment />
+                </p>
+                <Link className="cate-head" to="/">
+                  Card Title
+                </Link>
               </Card.Title>
-              <Card.Text>
+              <Card.Text className="cate-text">
                 Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                the bulk of the card's content. Lorem ipsum dolor sit amet
+                consectetur .
               </Card.Text>
-              <Link to="/">Read More</Link>
             </Card.Body>
           </Card>
         </Carousel.Item>

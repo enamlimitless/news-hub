@@ -85,7 +85,7 @@ const Header = () => {
                       30
                     </span>
                   </div>
-                  <h3><span>Lorem</span> ipsum dolor sit amit!</h3>
+                  <h3><span>American</span> Army attacks Taliban in Afghanistan river side</h3>
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   </p>

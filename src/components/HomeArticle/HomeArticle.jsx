@@ -1,6 +1,7 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import LatestNews from "../LatestNews/LatestNews";
+import Social from "../Social/Social";
 const HomeArticle = () => {
   return (
     <div>
@@ -10,7 +11,7 @@ const HomeArticle = () => {
             <LatestNews />
           </Col>
           <Col md={4}>
-              <h1>Hello</h1>
+              <Social />
           </Col>
         </Row>
       </Container>
