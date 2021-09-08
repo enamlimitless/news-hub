@@ -1,0 +1,8 @@
+.carousel-control-next,
+.carousel-control-prev {
+  display: none !important;
+}
+.slide-head {
+  color: var(--dark);
+  font-size: 2.4rem;
+}

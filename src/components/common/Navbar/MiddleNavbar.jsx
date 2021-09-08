@@ -7,17 +7,19 @@ const MiddleNavbar = () => {
     <div className="py-3">
       <Container>
         <Row>
-          <Col md={4}>
-            <img className="logo" src={logo} alt="logo" />
+          <Col lg={4} sm={12}>
+            <img className="logo align-center" src={logo} alt="logo" />
           </Col>
-          <Col md={8} sm={12}>
+          <Col lg={8} sm={12}>
+            <div className="nav-sm">
             <a
               href="http://instagram.com/enamulhaque.dev"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src={ad} alt="ad" />
+              <img className="ad-nav" src={ad} alt="ad" />
             </a>
+            </div>
           </Col>
         </Row>
       </Container>

@@ -1,4 +1,5 @@
 import React from "react";
+import Category from "../Category/Category";
 import Footer from "../common/Footer/Footer";
 import Navbar from "../common/Navbar/Navbar";
 import Header from "../Header/Header";
@@ -10,6 +11,7 @@ const Home = () => {
       <Navbar />
       <Header />
       <HomeArticle />
+      <Category />
       <Footer />
     </div>
   );

@@ -31,12 +31,44 @@ ul {
 .date {
   font-size: 1.4rem;
   color: var(--light);
-  margin-left: 2rem;
 }
 .comment {
   color: #fff;
   font-size: 1.4rem;
   margin-left: 2rem;
+}
+
+.text {
+  font-size: 1.5rem;
+  font-family: "Roboto", sans-serif;
+  color: #434343;
+}
+.head {
+  position: relative;
+  display: inline-block !important;
+  font-size: 2.5rem;
+  color: var(--dark);
+  text-transform: uppercase;
+  font-weight: 700;
+  margin: 3rem 0;
+}
+.head:after {
+  content: "";
+  width: 100%;
+  height: 0.1rem;
+  background-color: #d32f2f;
+  left: 0;
+  bottom: -1rem;
+  position: absolute;
+}
+.head:before {
+  content: "";
+  width: 100%;
+  height: 0.1rem;
+  background-color: #d32f2f;
+  left: 0;
+  bottom: -1.3rem;
+  position: absolute;
 }
 /* color */
 

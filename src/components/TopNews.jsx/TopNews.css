@@ -1,7 +1,7 @@
 .top-news-img {
   width: 100%;
   position: relative;
-  box-shadow: inset 10rem 20rem 3rem #f7f6f8;
+  /* box-shadow: inset 1rem 3rem 8rem 0.4rem #000000c7; */
 }
 .img-info {
   position: absolute;

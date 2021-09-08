@@ -27,3 +27,35 @@
 .logo {
   height: 8rem;
 }
+
+@media only screen and (min-width: 425px) {
+  .nav-sm {
+    width: 40rem;
+  }
+  img.ad-nav {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+  }
+  img.logo {
+    display: block;
+    margin: auto;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .nav-sm {
+    width: 76rem;
+  }
+  img.ad-nav {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+  }
+}
+@media only screen and (min-width: 976px) {
+  img.ad-nav {
+    width: 60rem;
+    display: block;
+    margin: 0 auto;
+  }
+}
