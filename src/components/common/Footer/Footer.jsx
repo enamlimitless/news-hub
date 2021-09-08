@@ -16,7 +16,7 @@ const Footer = () => {
     <footer className="bg-dark">
       <Container className="py-5">
         <Row>
-          <Col md={3}>
+          <Col md={4}>
             <h2>About</h2>
             <img className="footer-logo" src={logoFooter} alt="" />
             <p className="text-light">
@@ -28,33 +28,53 @@ const Footer = () => {
             <p className="text-light">Connect with Us!</p>
             <ul className="d-flex footer-social-icon align-items-center">
               <li>
-                <a href="http://" target="_blank" rel="noopener noreferrer">
+                <a
+                  href="http://facebook.com/enamulhaquebrown"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <FaFacebookF />
                 </a>
               </li>
               <li>
-                <a href="http://" target="_blank" rel="noopener noreferrer">
+                <a
+                  href="http://twitter.com/enamulhaque71"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <FaTwitter />
                 </a>
               </li>
               <li>
-                <a href="http://" target="_blank" rel="noopener noreferrer">
+                <a
+                  href="http://instagram.com/enamulhaque.dev"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <FaInstagram />
                 </a>
               </li>
               <li>
-                <a href="http://" target="_blank" rel="noopener noreferrer">
+                <a
+                  href="http://plus.google.com/enamulhaquemb01"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <FaGooglePlusG />
                 </a>
               </li>
               <li>
-                <a href="http://" target="_blank" rel="noopener noreferrer">
+                <a
+                  href="http://pinterest.com/enamulhaque7"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <FaPinterest />
                 </a>
               </li>
             </ul>
           </Col>
-          <Col md={3}>
+          <Col md={4}>
             <h2>Most Popular</h2>
             <div className="d-flex mt-4">
               <img src={f} alt="" />
@@ -69,22 +89,23 @@ const Footer = () => {
               <h5>Grandma’s secret blueberry pie recipe revealed!</h5>
             </div>
           </Col>
-          <Col md={3}>
-            <h2>Most Discussed</h2>
-            <div className="d-flex mt-4">
-              <img src={f} alt="" />
-              <h5>Grandma’s secret blueberry pie recipe revealed!</h5>
-            </div>
-            <div className="d-flex mt-4">
-              <img src={f} alt="" />
-              <h5>Grandma’s secret blueberry pie recipe revealed!</h5>
-            </div>
-            <div className="d-flex mt-4">
-              <img src={f} alt="" />
-              <h5>Grandma’s secret blueberry pie recipe revealed!</h5>
-            </div>
+
+          <Col md={4}>
+            <h2>From Instagram</h2>
+            <img className="m-2" src={f} alt="" />
+            <img className="m-2" src={f} alt="" />
+            <img className="m-2" src={f} alt="" />
+            <img className="m-2" src={f} alt="" />
+            <img className="m-2" src={f} alt="" />
+            <img className="m-2" src={f} alt="" />
+            <img className="m-2" src={f} alt="" />
+            <img className="m-2" src={f} alt="" />
+            <img className="m-2" src={f} alt="" />
+            <img className="m-2" src={f} alt="" />
+            <img className="m-2" src={f} alt="" />
+            <img className="m-2" src={f} alt="" />
+
           </Col>
-          <Col md={3}>hello</Col>
         </Row>
       </Container>
       <FooterBottom />

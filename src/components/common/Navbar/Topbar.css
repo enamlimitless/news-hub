@@ -4,9 +4,12 @@
   color: var(--dark);
 }
 .topbar-info li {
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   margin-right: 1.5rem;
   color: var(--dark);
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 .sign-in a {
   font-size: 1.6rem;

@@ -18,3 +18,11 @@ footer p {
 .editor:hover {
   color: #e6b800;
 }
+footer {
+  padding-top: 2rem;
+}
+footer h5 {
+  font-size: 1.5rem;
+  color: #fff;
+  margin-left: 1.5rem;
+}
