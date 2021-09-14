@@ -1,11 +1,11 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import "./Category.css";
+import Entertainment from "./Entertainment";
 import Health from "./Health";
 import International from "./International";
 import Politics from "./Politics";
 import Sports from "./Sports";
-
 const Category = () => {
   return (
     <div>
@@ -22,6 +22,9 @@ const Category = () => {
           </Col>
           <Col md={4}>
             <Health />
+          </Col>
+          <Col md={4}>
+            <Entertainment />
           </Col>
         </Row>
       </Container>

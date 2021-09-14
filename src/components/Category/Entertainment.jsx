@@ -17,15 +17,15 @@ const Entertainment = () => {
             </Link>
             <Card.Body>
               <Card.Title>
-                <Link className="" to="/">
-                  Card Title
+                <Link className="cate-head" to="/">
+                  This is a Title
                 </Link>
               </Card.Title>
-              <Card.Text>
+              <Card.Text className="cate-text">
                 Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                the bulk of the card's content. Lorem ipsum dolor sit amet
+                consectetur, adipisicing elit.
               </Card.Text>
-              <Link to="/">Read More</Link>
             </Card.Body>
           </Card>
         </Carousel.Item>
@@ -39,13 +39,15 @@ const Entertainment = () => {
             </Link>
             <Card.Body>
               <Card.Title>
-                <Link to="/">Card Title</Link>
+                <Link className="cate-head" to="/">
+                  Card Title
+                </Link>
               </Card.Title>
-              <Card.Text>
+              <Card.Text className="cate-text">
                 Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                the bulk of the card's content. Lorem ipsum dolor, sit amet
+                consectetur adipisicing elit.
               </Card.Text>
-              <Link to="/">Read More</Link>
             </Card.Body>
           </Card>
         </Carousel.Item>
